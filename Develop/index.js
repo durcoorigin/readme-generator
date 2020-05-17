@@ -17,7 +17,7 @@ const questions = () => {
     Welcome to the README.md Generator!
     ===================================
     `);
-    inquirer.prompt([
+    return inquirer.prompt([
         {
             type: 'input',
             name: 'name',
@@ -145,18 +145,14 @@ const questions = () => {
             message: 'Enter acknowledgements:'              
         },
         
-    ]).then(answers => {
-        console.log(JSON.stringify(answers, null, '  '));
-    });
+    ])
+    // .then(answers => {
+    //     console.log(JSON.stringify(answers, null, '  '));
+    // });
 };
 
-
-questions()
-
-
-
 // function to write README file
-function writeToFile(fileName, data) {
+const writeFile = fileContent => {
     return new Promise((resolve, reject) => {
         fs.writeFile('./dist/README.md', fileContent, err => {
             if (err) {
@@ -171,6 +167,26 @@ function writeToFile(fileName, data) {
         });
     });
 }
+
+function generate(answers) {
+    questions()
+    .then(data => {
+        return generateMarkdown(data);
+    })
+    .then(pageMD => {
+        return writeFile(pageMD);
+    })
+    .then(writeFileResponse => {
+        console.log(writeFileResponse);
+    })
+    .catch(err => {
+        console.log(err);
+    })
+};
+
+generate()
+
+
 
 // // function to initialize program
 // function init() {
