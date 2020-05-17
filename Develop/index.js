@@ -1,15 +1,14 @@
+// Internal Modules
+const fs = require('fs');
 
-// const profileDataArgs = process.argv.slice(2, process.argv.length);
 
-// const name = profileDataArgs[0];
-// const github = profileDataArgs[1];
-
-// const generateMarkdown = (name, github) => `Name: ${name}, Github: ${github}`;
-// console.log(generateMarkdown(name, github));
+// Personal Modules
+const generateMarkdown = require('./utils/generateMarkdown.js')
 
 
 // NPM Modules
 const inquirer = require('inquirer');
+
 
 // array of questions for user
 const questions = () => {
@@ -155,9 +154,23 @@ const questions = () => {
 questions()
 
 
-// // function to write README file
-// function writeToFile(fileName, data) {
-// }
+
+// function to write README file
+function writeToFile(fileName, data) {
+    return new Promise((resolve, reject) => {
+        fs.writeFile('./dist/README.md', fileContent, err => {
+            if (err) {
+                reject(err);
+                return;
+            }
+
+            resolve ({
+                ok: true,
+                message: 'File created!'
+            });
+        });
+    });
+}
 
 // // function to initialize program
 // function init() {
