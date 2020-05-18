@@ -1,40 +1,40 @@
 
 
   [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
-
-  # c
+  
+  # d
   
   
   ## Table of Contents
-  > #### [Description](#Description)     
+[Description](#Description)     
   
-  > #### [Languages/Technologies](#Languages/Technologies)
+[Languages/Technologies](#Languages/Technologies)
   
-  > #### [Installation Instructions](#Installation)
+[Installation Instructions](#Installation)
   
-  > #### [Usage Instructions](#Usage)
+[Usage Instructions](#Usage)
   
-  > #### [License](#License)
+[License](#License)
   
-  > #### [Contribution](#Contribution)
+[Contribution](#Contribution)
   
-  > #### [Testing](#Testing)
+[Testing](#Testing)
   
-  > #### [Acknowledgements](#Acknowledgements)
+[Acknowledgements](#Acknowledgements)
   
-  > #### [Questions](#Questions)
+[Questions](#Questions)
   
   ## Description 
   ---
-  f
+  d
   
   ## Languages/Technologies
   ---
-  g
+  d
   
   ## Installation Instructions
   ---
-  h
+  d
   
   ## Usage Instructions
   ---
@@ -42,15 +42,15 @@
   
   ## License
   ---
-  Licensed un the GNU GPL v3 license.
+  Licensed under the  license.
   
   ## Contribution
   ---
-  j
+  
   
   ## Testing
   ---
-  k
+  
   
   ## Acknowledgements 
   ---
@@ -58,9 +58,10 @@
   
   ## Questions
   ---
-  [GitHub](https://github.com/b) profile.
-  E-mail: e
+  [GitHub](https://github.com/d) profile.
+
+  E-mail: d
   
-  ### Built by a 
+  ### Built by d 
   
 
