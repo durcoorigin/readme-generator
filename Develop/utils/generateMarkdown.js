@@ -65,6 +65,7 @@ function generateMarkdown(data) {
   
   ## Contribution
   ---
+  ${data.repo}
   ${data.contribute}
   
   ## Testing

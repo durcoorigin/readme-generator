@@ -2,7 +2,7 @@
 
   [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
   
-  # d
+  # README.md Generator
   
   
   ## Table of Contents
@@ -26,15 +26,15 @@
   
   ## Description 
   ---
-  d
+  gfn
   
   ## Languages/Technologies
   ---
-  d
+  
   
   ## Installation Instructions
   ---
-  d
+  
   
   ## Usage Instructions
   ---
@@ -58,10 +58,10 @@
   
   ## Questions
   ---
-  [GitHub](https://github.com/d) profile.
+  [GitHub](https://github.com/twitchshort@gmail.com) profile.
 
-  E-mail: d
+  E-mail: 
   
-  ### Built by d 
+  ### Built by Chris Short 
   
 

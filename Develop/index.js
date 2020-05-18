@@ -65,7 +65,7 @@ const questions = () => {
 
         {
             type: 'input',
-            name: 'Repo',
+            name: 'repo',
             message: '(Required) What is the link to the project repo?',
             validate: nameInput => {
                 if (nameInput) {
