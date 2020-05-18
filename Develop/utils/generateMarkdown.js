@@ -57,7 +57,7 @@ function generateMarkdown(data) {
   
   ## Usage Instructions
   ---
-  ${data.usage}
+  ${data.useage}
   
   ## License
   ---
